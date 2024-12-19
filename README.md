@@ -123,7 +123,7 @@ sozo build
 sozo migrate
 
 # Run Torii with World address generated from previous command
-torii --world <WORLD ADDRESS> --http.cors_origins "*"
+torii --world 0x0114263853155c7f3c4209d140a05b106d9ce7f64f75058e2b3ab81fc72cc372 --http.cors_origins "*"
 ```
 
 To locate the world address, scan through the output generated from running `sozo migrate`, locate the line similar to:
